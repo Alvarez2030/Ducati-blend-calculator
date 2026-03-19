@@ -23,25 +23,25 @@ A Python application for calculating optimal blends based on batch data, using e
 
 Install all dependencies:
 
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ## Running the GUI
 
-
+```bash
 python GUI_ST_batches_call_calc_fixed_v11a.py
-
+```
 
 ## Running the solver directly
 
-
+```bash
 python target_based_solver.py --input input.json
-
+```
 
 ## Project Structure
 
-
+```
 /project
 ├── GUI_ST_batches_call_calc_fixed_v11a.py
 ├── target_based_solver.py
