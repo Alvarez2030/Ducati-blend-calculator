@@ -1,0 +1,54 @@
+# ------------------------
+# Python cache / build
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+
+# ------------------------
+# Virtual environments
+# ------------------------
+venv/
+.env/
+.env*/
+.venv/
+
+# ------------------------
+# IDE / Editor files
+# ------------------------
+# PyCharm
+.idea/
+# VSCode
+.vscode/
+
+# ------------------------
+# OS-generated files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Your project-specific generated files
+# ------------------------
+# CSV export outputs
+*.csv
+
+# JSON results exported by your solver or GUI
+*.json
+
+# Log files (if created)
+*.log
+
+# Backup files
+*~
+
+# ------------------------
+# Matplotlib cache
+# ------------------------
+# (only if used by your GUI plots)
+.matplotlib/
